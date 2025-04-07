@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1080px;
+    width: 1920;
+    background-image: url('Mapas.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.contenedor {  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 100px;  
+    }
+
+    .fichas {
+      margin-top: 50% ;
+      border: 1px solid black;
+      border-radius: 15px; 
+      color: white;
+      padding: 200px ;
+      background-color:  rgba(187, 0, 255, 0.350); 
+    }
+    .fichas img {
+  width: 100%;  
+  height: 100%; 
+  object-fit: cover; 
+}
